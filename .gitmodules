@@ -1,0 +1,15 @@
+[submodule "NB_URN_Client_Java"]
+	path = NB_URN_Client_Java
+	url = https://github.com/runelk/NB_URN_Client_Java.git
+[submodule "NB_URN_Client_Lisp"]
+	path = NB_URN_Client_Lisp
+	url = https://github.com/runelk/NB_URN_Client_Lisp.git
+[submodule "NB_URN_Client_Python"]
+	path = NB_URN_Client_Python
+	url = https://github.com/runelk/NB_URN_Client_Python.git
+[submodule "NB_URN_Client_Ruby"]
+	path = NB_URN_Client_Ruby
+	url = https://github.com/runelk/NB_URN_Client_Ruby.git
+[submodule "NB_URN_Client_Perl"]
+	path = NB_URN_Client_Perl
+	url = https://github.com/runelk/NB_URN_Client_Perl.git
