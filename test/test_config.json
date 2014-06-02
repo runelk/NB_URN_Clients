@@ -5,39 +5,46 @@
 		"urn": "",
 		"url": ""
 	    },
-	    "usage_error_msg": "Usage: add_url --urn URN --url URL"
-        }, 
-        "get_next_urn": {
-	    "arguments": {
-		"series-code": ""
-	    },
-	    "usage_error_msg": "Usage: get_next_urn --series-code CODE"
+	    "usage_error_msg": "Usage: add_url --urn URN --url URL\n"
         }, 
         "create_urn": {
 	    "arguments": {
 		"series-code": "",
 		"url": ""
 	    },
-	    "usage_error_msg": "Usage: create_urn --series-code CODE --url URL"
+	    "usage_error_msg": "Usage: create_urn --series-code CODE --url URL\n"
         }, 
+        "delete_url": {
+	    "arguments": {
+		"urn": "",
+		"url": ""
+	    },
+	    "usage_error_msg": "Usage: delete_url --urn URN --url URL\n"
+        },
         "find_urn": {
 	    "arguments": {
 		"urn": ""
 	    },
-	    "usage_error_msg": "Usage: find_urn --urn URN"
+	    "usage_error_msg": "Usage: find_urn --urn URN\n"
         },
         "find_urns_for_url": {
 	    "arguments": {
 		"url": ""
 	    },
-	    "usage_error_msg": "Usage: find_urns_for_url --url URL"
+	    "usage_error_msg": "Usage: find_urns_for_url --url URL\n"
         },
+        "get_next_urn": {
+	    "arguments": {
+		"series-code": ""
+	    },
+	    "usage_error_msg": "Usage: get_next_urn --series-code CODE\n"
+        }, 
         "register_urn": {
 	    "arguments": {
 		"urn": "",
 		"url": ""
 	    },
-	    "usage_error_msg": "Usage: register_urn --urn URN --url URL"
+	    "usage_error_msg": "Usage: register_urn --urn URN --url URL\n"
         },
         "replace_url": {
 	    "arguments": {
@@ -45,44 +52,37 @@
 		"old-url": "",
 		"new-url": ""
 	    },
-	    "usage_error_msg": "Usage: replace_url --urn URN --old-url URL --new-url URL"
-        },
-        "delete_url": {
-	    "arguments": {
-		"urn": "",
-		"url": ""
-	    },
-	    "usage_error_msg": "Usage: delete_url --urn URN --url URL"
+	    "usage_error_msg": "Usage: replace_url --urn URN --old-url URL --new-url URL\n"
         },
         "reserve_next_urn": {
 	    "arguments": {
 		"series-code": ""
 	    },
-	    "usage_error_msg": "Usage: reserve_next_urn --series-code CODE"
+	    "usage_error_msg": "Usage: reserve_next_urn --series-code CODE\n"
         },
         "reserve_urn": {
 	    "arguments": {
 		"urn": ""
 	    },
-	    "usage_error_msg": "Usage: reserve_urn --urn URNx"
+	    "usage_error_msg": "Usage: reserve_urn --urn URN\n"
         },
         "set_default_url": {
 	    "arguments": {
 		"urn": "",
 		"url": ""
 	    },
-	    "usage_error_msg": "Usage: set_default_url --urn URN --url URL"
+	    "usage_error_msg": "Usage: set_default_url --urn URN --url URL\n"
         }
     },
     "clients": {
-        "python": {
+	"perl": {
+	    "directory": "NB_URN_Client_Perl"
+	},
+	"python": {
 	    "directory": "NB_URN_Client_Python"
 	},
 	"ruby": {
 	    "directory": "NB_URN_Client_Ruby"
-	},
-	"perl": {
-	    "directory": "NB_URN_Client_Java"
 	}
     }
 }
