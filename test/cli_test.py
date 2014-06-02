@@ -8,8 +8,7 @@ import subprocess
 class CliTestHelper(object):
     def __init__(self, config):
         self.config = json.loads(open(config).read())
-        # self.main_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-        self.main_directory = '/Users/rkn083/mystuff/projects/clarino/urn'
+        self.main_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
     
     def call_cmd(self, client, cmd):
         p = subprocess.Popen(
