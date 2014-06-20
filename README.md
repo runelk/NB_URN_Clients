@@ -17,7 +17,7 @@ just one language, go to one of the repositories in the list below.
 Clients:
 --------
 
-* Python: http://github.com/runelk/NB_URN_Client_Lisp
+* Python: http://github.com/runelk/NB_URN_Client_Python
 * Ruby: http://github.com/runelk/NB_URN_Client_Ruby
 * Perl: http://github.com/runelk/NB_URN_Client_Perl
 * Java: http://github.com/runelk/NB_URN_Client_Java
